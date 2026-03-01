@@ -1,13 +1,13 @@
 # Hands-On Deep Learning
 
-Session 1: Basics of Deep Learning, Modern Paradigms and PyTorch.
+Session 1: Basics of Deep Learning and PyTorch.
 
 This repository contains a Jupyter notebook that introduces PyTorch fundamentals, logistic regression with gradient descent on MNIST, and overfitting and regularization.
 
 ## Contents
 
 - **`introduction.ipynb`** — Covers:
-  - PyTorch tensors, autograd, model definition with `nn.Module`, and the training loop
+  - PyTorch tensors, autograd, model definition and the training loop
   - Training logistic regression (softmax) with gradient descent on MNIST
   - Overfitting and regularization (weight decay, early stopping)
 
@@ -16,19 +16,13 @@ This repository contains a Jupyter notebook that introduces PyTorch fundamentals
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hands_on_dl.git
+git clone https://github.com/arshandalili/hands_on_dl.git
 cd hands_on_dl
 ```
 
 ### 2. Create and activate the conda environment
 
-Using the existing `.venv` conda environment in this repo:
-
-```bash
-conda activate ./.venv
-```
-
-If you need to create a new conda environment instead:
+Create a new conda environment instead:
 
 ```bash
 conda create -p .venv python=3.10 -y
@@ -58,7 +52,3 @@ jupyter lab introduction.ipynb
 
 - Python 3.10+
 - See `requirements.txt` for package versions (PyTorch, torchvision, matplotlib, numpy).
-
-## License
-
-MIT (or specify as needed.)
