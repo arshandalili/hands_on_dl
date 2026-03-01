@@ -47,8 +47,3 @@ Or with JupyterLab:
 pip install jupyterlab
 jupyter lab introduction.ipynb
 ```
-
-## Requirements
-
-- Python 3.10+
-- See `requirements.txt` for package versions (PyTorch, torchvision, matplotlib, numpy).
