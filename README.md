@@ -4,6 +4,10 @@
 
 This session covers the basics of deep learning and PyTorch. Refer to the [introduction.ipynb](introduction.ipynb) notebook for the content.
 
+## Session 2: Deep Learning for Images
+
+This session covers deep learning techniques for image data. Refer to the [images.ipynb](images.ipynb) notebook for the content.
+
 ## Contents
 
 - [introduction.ipynb](introduction.ipynb) <a target="_blank" href="https://colab.research.google.com/github/arshandalili/hands_on_dl/blob/main/introduction.ipynb">
@@ -12,6 +16,15 @@ This session covers the basics of deep learning and PyTorch. Refer to the [intro
   - PyTorch tensors, autograd, model definition and the training loop
   - Training logistic regression (softmax) with gradient descent on MNIST
   - Overfitting and regularization (weight decay, early stopping)
+
+- [images.ipynb](images.ipynb) <a target="_blank" href="https://colab.research.google.com/github/arshandalili/hands_on_dl/blob/main/images.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>  - Covers:
+  - Convolutional neural networks (CNNs) for image classification
+  - Data augmentation and regularization for images
+  - Transfer learning and fine-tuning pretrained vision models
+  - Grad-CAM for visualizing image classification
+  - Object detection with YOLO
 
 ## Setup (if you want to run the notebook locally)
 
